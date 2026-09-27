@@ -4,6 +4,14 @@
   background-color: var(--mantine-color-gray-cool-8);
   color: var(--mantine-color-gray-cool-0);
   font-family: 'Roboto', sans-serif;
+  transition: width 0.2s ease;
+}
+
+
+.expanded {
+  --app-shell-navbar-width: 220px;
+  z-index: 200;
+  box-shadow: 8px 0 32px -12px rgba(0, 0, 0, 0.55);
 }
 
 .link {

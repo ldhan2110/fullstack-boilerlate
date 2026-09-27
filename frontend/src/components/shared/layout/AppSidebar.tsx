@@ -23,7 +23,11 @@ export const AppSidebar = forwardRef<HTMLDivElement, Props>(
     }
 
     return (
-      <AppShell.Navbar ref={ref} p="xs" className={classes.navbar}>
+      <AppShell.Navbar
+        ref={ref}
+        p="xs"
+        className={`${classes.navbar}${expanded ? ` ${classes.expanded}` : ''}`}
+      >
         {/* ── Logo ────────────────────────────────────────── */}
         <AppShell.Section>
           <Center py="sm">
