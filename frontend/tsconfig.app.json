@@ -10,7 +10,9 @@
       "@types/*": ["./src/types/*"],
       "@stores/*": ["./src/stores/*"],
       "@pages/*": ["./src/pages/*"],
-      "@configs/*": ["./src/configs/*"]
+      "@configs/*": ["./src/configs/*"],
+      "@locales/*": ["./src/locales/*"],
+      "@hooks/*": ["./src/hooks/*"]
     },
     "allowArbitraryExtensions": true,
     "skipLibCheck": true,

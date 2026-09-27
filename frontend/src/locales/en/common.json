@@ -1,0 +1,25 @@
+{
+  "app": {
+    "name": "Boilerplate"
+  },
+  "actions": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "search": "Search",
+    "back": "Back"
+  },
+  "status": {
+    "loading": "Loading...",
+    "empty": "No data",
+    "error": "Something went wrong"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "vi": "Tiếng Việt"
+  }
+}

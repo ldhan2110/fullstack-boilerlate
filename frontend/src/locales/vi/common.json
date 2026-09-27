@@ -1,0 +1,25 @@
+{
+  "app": {
+    "name": "Boilerplate"
+  },
+  "actions": {
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "confirm": "Xác nhận",
+    "delete": "Xóa",
+    "edit": "Sửa",
+    "create": "Tạo mới",
+    "search": "Tìm kiếm",
+    "back": "Quay lại"
+  },
+  "status": {
+    "loading": "Đang tải...",
+    "empty": "Không có dữ liệu",
+    "error": "Đã có lỗi xảy ra"
+  },
+  "language": {
+    "label": "Ngôn ngữ",
+    "en": "English",
+    "vi": "Tiếng Việt"
+  }
+}

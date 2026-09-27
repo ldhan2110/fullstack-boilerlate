@@ -13,6 +13,8 @@ export default defineConfig({
       '@stores': fileURLToPath(new URL('./src/stores', import.meta.url)),
       '@pages': fileURLToPath(new URL('./src/pages', import.meta.url)),
       '@configs': fileURLToPath(new URL('./src/configs', import.meta.url)),
+      '@locales': fileURLToPath(new URL('./src/locales', import.meta.url)),
+      '@hooks': fileURLToPath(new URL('./src/hooks', import.meta.url)),
     },
   },
 })
