@@ -9,7 +9,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@components': fileURLToPath(new URL('./src/components', import.meta.url)),
-      '@types': fileURLToPath(new URL('./src/types', import.meta.url)),
+      '@app-types': fileURLToPath(new URL('./src/types', import.meta.url)),
       '@stores': fileURLToPath(new URL('./src/stores', import.meta.url)),
       '@pages': fileURLToPath(new URL('./src/pages', import.meta.url)),
       '@configs': fileURLToPath(new URL('./src/configs', import.meta.url)),

@@ -7,8 +7,10 @@
     "types": ["vite/client"],
     "paths": {
       "@components/*": ["./src/components/*"],
-      "@types/*": ["./src/types/*"],
+      "@app-types/*": ["./src/types/*"],
+      "@stores": ["./src/stores/index.ts"],
       "@stores/*": ["./src/stores/*"],
+      "@pages": ["./src/pages/index.ts"],
       "@pages/*": ["./src/pages/*"],
       "@configs/*": ["./src/configs/*"],
       "@locales/*": ["./src/locales/*"],

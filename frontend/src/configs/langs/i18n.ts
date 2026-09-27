@@ -31,6 +31,7 @@ void i18n
     nonExplicitSupportedLngs: true, // 'en-US' -> 'en'
     fallbackLng: DEFAULT_LANGUAGE,
     defaultNS: 'common',
+    fallbackNS: 'common', // bare keys resolve from common when missing in page ns
     interpolation: { escapeValue: false },
     detection: {
       order: ['localStorage', 'navigator'],
